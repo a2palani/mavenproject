@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13008" started-at="2022-04-28T00:15:01 IST" finished-at="2022-04-28T00:15:14 IST">
+    <groups>
+    </groups>
+    <test name="firefox" duration-ms="12705" started-at="2022-04-28T00:15:01 IST" finished-at="2022-04-28T00:15:13 IST">
+      <class name="org.test.Crossbrowser">
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:org.test.Crossbrowser@a35978]" name="tc1" duration-ms="12611" started-at="2022-04-28T00:15:01 IST" finished-at="2022-04-28T00:15:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.test.Crossbrowser -->
+    </test> <!-- firefox -->
+    <test name="Test" duration-ms="13008" started-at="2022-04-28T00:15:01 IST" finished-at="2022-04-28T00:15:14 IST">
+      <class name="org.test.Crossbrowser">
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:org.test.Crossbrowser@950e31]" name="tc1" duration-ms="12930" started-at="2022-04-28T00:15:01 IST" finished-at="2022-04-28T00:15:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.test.Crossbrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
